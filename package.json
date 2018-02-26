@@ -1,11 +1,28 @@
 {
   "name": "flutter-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Flutter CLI",
+  "homepage": "https://github.com/CoericK/flutter-cli",
+  "keywords": [
+    "fluter",
+    "flutter CLI"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Erick Arroyo",
+    "email": "erick@erickarroyo.com",
+    "url": "https://erickarroyo.com"
+  },
+  ,
+  "bugs": {
+    "url": "https://github.com/CoericK/fb-graph-api/issues"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoericK/fb-graph-api.git"
+  }
 }
