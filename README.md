@@ -1,6 +1,6 @@
 # Flutter CLI
 
-Makes the `flutter` ([Flutter](https://flutter.io)) command available to use on your operating system .
+Makes the `flutter` ([Flutter](https://flutter.io)) command| available to use on your operating system .
 
 **Author:** [CoericK](https://www.erickarroyo.com)
 
