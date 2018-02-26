@@ -1,6 +1,6 @@
 {
   "name": "flutter-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Flutter CLI",
   "homepage": "https://github.com/CoericK/flutter-cli",
   "keywords": [
@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "git clone -b dev https://github.com/flutter/flutter.git"
+    "preinstall": "git clone -b dev https://github.com/flutter/flutter.git"
   },
   "bin":{
     "flutter": "./flutter/bin"
