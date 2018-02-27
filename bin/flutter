@@ -12,3 +12,4 @@ nodeProcess.on("close", function (code) {
   // We need this handler so if command fails, we'll exit with same exit code as CLI.
   process.exit(code);
 });
+
