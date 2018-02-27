@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+"use strict";
+
+var args = process.argv.slice(2);
+
+var childProcess = require("child_process");
+
+var nodeProcess = childProcess.spawn("./flutter/bin/flutter", args, {stdio: "inherit"});
+
+nodeProcess.on("close", function (code) {
+  // We need this handler so if command fails, we'll exit with same exit code as CLI.
+  process.exit(code);
+});
