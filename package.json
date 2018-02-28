@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "git clone -b dev https://github.com/flutter/flutter.git"
+    "preinstall": "git clone -b beta https://github.com/flutter/flutter.git"
   },
   "bin":{
     "flutter": "./bin/flutter"
