@@ -1,6 +1,6 @@
 {
   "name": "flutter-cli",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Flutter CLI",
   "homepage": "https://github.com/CoericK/flutter-cli",
   "keywords": [
@@ -22,7 +22,7 @@
     "url": "https://erickarroyo.com"
   },
   "bugs": {
-    "url": "https://github.com/CoericK/fb-graph-api/issues"
+    "url": "https://github.com/CoericK/flutter-cli/issues"
   },
   "license": "Apache-2.0",
   "repository": {
